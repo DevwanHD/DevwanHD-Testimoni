@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+:root{
+    --bg-navbar: #95BDFF;
+    --textbrand: red;
+    --texthijau: #DFFFD8;
+}
+
+.navbar{
+    background: var(--bg-navbar);
+
+}
+
+.navbar .navbar-brand{
+    color: var(--textbrand);
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar .navbar-brand span{
+     color: var(--texthijau);
+}
+
+a.btn-second{
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: var(--textbrand);
+    border: 1px solid var(--textbrand);
+}
+
+a.btn-second:hover{
+    background: var(--textbrand);
+    color: #fff;
+    border: 1px solid var(--textbrand);
+    transition: 1s;
+}
+
+a.btn-first{
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--textbrand);
+    
+}
+
+a.btn-first:hover{
+    background: var(--textbrand);
+    color: #fff;
+    transition: 1s;
+}
+
+.navbar .nav-item i{
+    font-size: 25px;
+}
+
+.navbar .input-group{
+    width: 50%;
+}
+/* atur responsive */
+@media (max-width:960px) {
+    .navbar .input-group{
+        width: 100%;
+    }
+}
